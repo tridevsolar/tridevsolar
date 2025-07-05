@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tridev Infra and Solar Solution Pvt. Ltd.</title>
+    <meta name="description" content="बस्ती, उत्तर प्रदेश में अग्रणी सौर ऊर्जा समाधान प्रदाता। हम पीएम सूर्य घर मुफ्त बिजली योजना, सौर पंप आदि में विशेषज्ञ हैं।">
+    <meta name="keywords" content="सौर ऊर्जा, सौर पैनल, सौर स्थापना, पीएम सूर्य घर मुफ्त बिजली योजना, सौर बस्ती, त्रिदेव इन्फ्रा, सौर पंप">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff9900;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://i.imgur.com/7q3g2Jg.jpg') center/cover no-repeat;
+            padding: 100px 20px;
+            text-align: center;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 36px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+        .button {
+            background-color: #ff9900;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #ff9900;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services li {
+            margin-bottom: 10px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tridev Infra and Solar Solution Pvt. Ltd.</h1>
+    <nav>
+        <a href="#home">मुख्य पृष्ठ</a>
+        <a href="#about">हमारे बारे में</a>
+        <a href="#services">सेवाएं</a>
+        <a href="#schemes">योजनाएं</a>
+        <a href="#gallery">गैलरी</a>
+        <a href="#contact">संपर्क करें</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>भारत को स्वच्छ, विश्वसनीय सौर ऊर्जा से सशक्त बनाएं</h1>
+    <p>Tridev Infra and Solar Solution Pvt. Ltd. के साथ सौर क्रांति से जुड़ें।</p>
+    <a href="#services" class="button">हमारी सेवाएं देखें</a>
+</section>
+
+<section class="section" id="about">
+    <h2>हमारे बारे में</h2>
+    <p>हम बस्ती, उत्तर प्रदेश स्थित अग्रणी सौर ऊर्जा समाधान प्रदाता हैं, जो घरों, खेतों और उद्योगों के लिए किफायती व कुशल सौर ऊर्जा प्रणाली प्रदान करते हैं।</p>
+    <p><strong>हमारा मिशन:</strong> हर घर और गांव को स्वच्छ ऊर्जा से सशक्त बनाना।</p>
+    <p><strong>निदेशक:</strong> ममता सिंह, अमित सिंह</p>
+</section>
+
+<section class="section services" id="services">
+    <h2>हमारी सेवाएं</h2>
+    <ul>
+        <li
