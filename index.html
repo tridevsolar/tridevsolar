@@ -1,10 +1,210 @@
 <!DOCTYPE html>
-<html>
+<html lang="hi">
 <head>
-    <title>Tridev Solar - Meri Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tridev Infra and Solar Solution Pvt. Ltd.</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: #f9fafb;
+      color: #1f2937;
+    }
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    header img {
+      height: 80px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #fbbf24;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-style: italic;
+      font-size: 15px;
+    }
+    nav {
+      background: #1e3a8a;
+      text-align: center;
+      padding: 12px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #fbbf24;
+      color: #0f172a;
+      border-radius: 6px;
+    }
+    section {
+      padding: 30px 20px;
+      background: white;
+      margin: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    }
+    h2 {
+      color: #1e3a8a;
+      border-left: 5px solid #fbbf24;
+      padding-left: 10px;
+    }
+    .btn {
+      background: #fbbf24;
+      color: #0f172a;
+      padding: 12px 22px;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #1e3a8a;
+      color: white;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #1e3a8a;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    form button:hover {
+      background: #fbbf24;
+      color: #0f172a;
+    }
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    footer a {
+      color: #fbbf24;
+      margin: 0 8px;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to Tridev Solar!</h1>
-    <p>Hamari website jaldi aa rahi hai. Yeh GitHub Pages par host hai.</p>
+
+<header>
+  <img src="logo.png" alt="Company Logo">
+  <h1>Tridev Infra and Solar Solution Pvt. Ltd.</h1>
+  <p>Clean Energy for a Better Future | सही सोलर - सही सर्विस - सही बचत</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About Us</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome to Tridev Infra</h2>
+  <p>हम उत्तर प्रदेश में सोलर इंस्टॉलेशन में अग्रणी हैं। हम Government Approved Dealer हैं। Quality और Service हमारी पहचान है।</p>
+  <a href="#contact" class="btn">संपर्क करें</a>
+</section>
+
+<section id="services">
+  <h2>Our Services - Solar Plant Rates</h2>
+  <h3>On-Grid Solar System (with GST)</h3>
+  <ul>
+    <li>3KW - ₹1,95,000</li>
+    <li>4KW - ₹2,55,000</li>
+    <li>5KW - ₹3,25,000</li>
+    <li>8KW - ₹4,75,000</li>
+    <li>10KW - ₹5,60,000</li>
+  </ul>
+  <h3>Hybrid Solar System (12% Tax)</h3>
+  <ul>
+    <li>3KW - ₹2,60,000</li>
+    <li>4KW - ₹3,20,000</li>
+    <li>5KW - ₹3,50,000</li>
+  </ul>
+</section>
+
+<section id="gallery">
+  <h2>Our Project Gallery</h2>
+  <div class="gallery">
+    <img src="solar1.jpg" alt="Solar Project 1">
+    <img src="solar2.jpg" alt="Solar Project 2">
+    <img src="solar3.jpg" alt="Solar Project 3">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us / Inquiry Form</h2>
+  <form>
+    <input type="text" placeholder="Name (नाम)" required>
+    <input type="tel" placeholder="Mobile Number (मोबाइल नंबर)" required>
+    <input type="text" placeholder="Village/City (गांव/शहर)">
+    <textarea placeholder="Message (संदेश)" rows="4"></textarea>
+    <button type="submit">Send Inquiry</button>
+  </form>
+  <p>या सीधे WhatsApp पर संपर्क करें:</p>
+  <a href="https://wa.me/919839719392" class="btn">WhatsApp Chat</a>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p><strong>Tridev Infra and Solar Solution Pvt. Ltd.</strong> Basti, Uttar Pradesh की Leading Solar Company है।</p>
+  <p><strong>Directors:</strong> Amit Singh, Mamta Singh</p>
+  <p><strong>Contact:</strong> 9839719392 | Email: tridevsolarurja@gmail.com</p>
+  <p>हमारा लक्ष्य हर घर को सोलर से रोशन करना है।</p>
+</section>
+
+<footer>
+  <p>© 2025 Tridev Infra and Solar Solution Pvt. Ltd. | Powered by Solar Energy</p>
+  <p>
+    <a href="#">Facebook</a> | 
+    <a href="#">Instagram</a> | 
+    <a href="#">LinkedIn</a>
+  </p>
+</footer>
+
 </body>
 </html>
